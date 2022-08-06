@@ -1,0 +1,27 @@
+{
+  "name": "job-finder",
+  "version": "1.0.0",
+  "description": "- npm run install-dependencies\r - rename .env.temp to .env\r - setup values for - MONGO_URL, JWT_SECRET, JWT_LIFETIME\r - npm start\r - visit url http://localhost:3000/",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saikatbhuiyan/job-finder-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saikatbhuiyan/job-finder-/issues"
+  },
+  "homepage": "https://github.com/saikatbhuiyan/job-finder-#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
