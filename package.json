@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "job-finder",
   "version": "1.0.0",
   "description": "- npm run install-dependencies\r - rename .env.temp to .env\r - setup values for - MONGO_URL, JWT_SECRET, JWT_LIFETIME\r - npm start\r - visit url http://localhost:3000/",
