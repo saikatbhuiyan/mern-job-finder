@@ -5,8 +5,9 @@
   "description": "- npm run install-dependencies\r - rename .env.temp to .env\r - setup values for - MONGO_URL, JWT_SECRET, JWT_LIFETIME\r - npm start\r - visit url http://localhost:3000/",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server"
+    "server": "nodemon server --ignore client",
+    "client": "npm start --prefix client",
+    "start": "concurrently --kill-others-on-fail \"npm run server\" \" npm run client\""
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/saikatbhuiyan/job-finder-#readme",
   "devDependencies": {
+    "concurrently": "^7.3.0",
     "nodemon": "^2.0.19"
   },
   "dependencies": {
