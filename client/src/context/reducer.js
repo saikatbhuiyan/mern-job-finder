@@ -15,6 +15,7 @@ const reducer = (state, action) => {
       alertText: "Please provide all values!",
     };
   }
+
   if (action.type === CLEAR_ALERT) {
     return {
       ...state,
@@ -37,7 +38,7 @@ const reducer = (state, action) => {
       jobLocation: action.payload.location,
       showAlert: true,
       alertType: "success",
-      alertText: "User Created!",
+      alertText: action.payload.alertText,
     };
   }
 

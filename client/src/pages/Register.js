@@ -14,7 +14,7 @@ const initialSate = {
 const Register = () => {
   const [values, setValues] = useState(initialSate);
   const navigate = useNavigate();
-  const { user, isLoading, showAlert, displayAlert, registerUser } =
+  const { user, isLoading, showAlert, displayAlert, setupUser } =
     useAppContext();
 
   // set values on state for toggle register and login
@@ -30,19 +30,33 @@ const Register = () => {
   // submit form
   const onSubmit = (e) => {
     e.preventDefault();
+
+    // check all the inputs
     const { name, email, password, isMember } = values;
     if (!email || !password || (!isMember && !name)) {
       displayAlert();
       return;
     }
+    // create playload and go for register and login
     const currentUser = { name, email, password };
     if (isMember) {
-      console.log("already a member");
+      // login
+      setupUser({
+        currentUser,
+        endPoint: "login",
+        alertText: "Login Successful! Redirecting...",
+      });
     } else {
-      registerUser(currentUser);
+      // register
+      setupUser({
+        currentUser,
+        endPoint: "register",
+        alertText: "User Created! Redirecting...",
+      });
     }
   };
 
+  // redirect to home page after successfully login or register
   useEffect(() => {
     if (user) {
       setTimeout(() => {
