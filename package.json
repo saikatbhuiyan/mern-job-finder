@@ -34,6 +34,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.5.1",
     "morgan": "^1.10.0",
+    "react-icons": "^4.4.0",
     "validator": "^13.7.0"
   }
 }
