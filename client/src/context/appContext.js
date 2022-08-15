@@ -1,4 +1,4 @@
-import React, { useState, useReducer, useContext } from "react";
+import React, { useReducer, useContext } from "react";
 import axios from "axios";
 import reducer from "./reducer";
 import {
@@ -7,6 +7,8 @@ import {
   SETUP_USER_BEGIN,
   SETUP_USER_SUCCESS,
   SETUP_USER_ERROR,
+  TOGGLE_SIDEBAR,
+  LOGOUT_USER,
 } from "./actions";
 
 // get user data from local storage
@@ -23,29 +25,35 @@ const initialState = {
   token: token,
   userLocation: userLocation || "",
   jobLocation: userLocation || "",
+  showSidebar: false,
 };
 
 const AppContext = React.createContext();
 
 const AppProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
+
+  // show alert message on screen
   const displayAlert = () => {
     dispatch({ type: DISPLAY_ALERT });
     clearAlert();
   };
 
+  // remove alert after 3 seconds
   const clearAlert = () => {
     setTimeout(() => {
       dispatch({ type: CLEAR_ALERT });
     }, 3000);
   };
 
+  // add user in local storage
   const addUserToLocalStorage = ({ user, token, location }) => {
     localStorage.setItem("user", JSON.stringify(user));
     localStorage.setItem("token", token);
     localStorage.setItem("location", location);
   };
 
+  // remove user from local storage
   const removeUserFromLocalStorage = () => {
     localStorage.removeItem("token");
     localStorage.removeItem("user");
@@ -76,8 +84,20 @@ const AppProvider = ({ children }) => {
     clearAlert();
   };
 
+  const toggleSidebar = () => {
+    dispatch({ type: TOGGLE_SIDEBAR });
+  };
+
+  const logoutUser = () => {
+    dispatch({ type: LOGOUT_USER });
+    removeUserFromLocalStorage();
+  };
+
   return (
-    <AppContext.Provider value={{ ...state, displayAlert, setupUser }}>
+    <AppContext.Provider
+      value={{ ...state, displayAlert, setupUser, toggleSidebar, logoutUser }}
+    >
+      {/* hear children means app */}
       {children}
     </AppContext.Provider>
   );
