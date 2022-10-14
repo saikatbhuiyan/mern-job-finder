@@ -16,6 +16,7 @@ const Profile = () => {
     e.preventDefault();
     if (!email || !name || !location || !lastName) {
       displayAlert();
+      return;
     }
     updateUser({ name, email, lastName, location });
   };
@@ -51,8 +52,8 @@ const Profile = () => {
             value={location}
             handleChange={(e) => setLocation(e.target.value)}
           />
-          <button className="btn btn-block" type="submit">
-            {isLoading ? "Please wait..." : "save changes"}
+          <button className="btn btn-block" type="submit" disabled={isLoading}>
+            {isLoading ? "Please Wait..." : "save changes"}
           </button>
         </div>
       </form>

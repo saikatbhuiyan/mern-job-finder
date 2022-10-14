@@ -1,5 +1,6 @@
 import React, { useReducer, useContext } from "react";
 import axios from "axios";
+
 import reducer from "./reducer";
 import {
   DISPLAY_ALERT,
@@ -9,6 +10,9 @@ import {
   SETUP_USER_ERROR,
   TOGGLE_SIDEBAR,
   LOGOUT_USER,
+  UPDATE_USER_BEGIN,
+  UPDATE_USER_ERROR,
+  UPDATE_USER_SUCCESS,
 } from "./actions";
 
 // get user data from local storage
@@ -56,8 +60,9 @@ const AppProvider = ({ children }) => {
     },
     (error) => {
       console.log(error.response);
+      // for unauthorized request and if token expired
       if (error.response.status === 401) {
-        console.log("AUTH ERROR");
+        // logoutUser();
       }
       return Promise.reject(error);
     }
@@ -124,12 +129,30 @@ const AppProvider = ({ children }) => {
   };
 
   const updateUser = async (currentUser) => {
+    dispatch({ type: UPDATE_USER_BEGIN });
     try {
       const { data } = await authFetch.patch("/auth/updateUser", currentUser);
-      console.log(data);
+
+      const { user, location, token } = data;
+
+      dispatch({
+        type: UPDATE_USER_SUCCESS,
+        payload: { user, location, token },
+      });
+      addUserToLocalStorage({ user, location, token });
     } catch (error) {
-      // console.log(error.response);
+      // for unauthorized request and if token expired
+      if (error.response.status === 401) {
+        setTimeout(() => {
+          logoutUser();
+        }, 3000);
+      }
+      dispatch({
+        type: UPDATE_USER_ERROR,
+        payload: { msg: error.response.data.msg },
+      });
     }
+    clearAlert();
   };
 
   return (

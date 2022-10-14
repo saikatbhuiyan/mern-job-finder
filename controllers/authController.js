@@ -72,7 +72,7 @@ const updateUser = async (req, res) => {
 
   const token = user.createJWT();
 
-  res.status(StatusCodes.OK).json({ user, token });
+  res.status(StatusCodes.OK).json({ user, token, location });
 };
 
 export { register, login, updateUser };
