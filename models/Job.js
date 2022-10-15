@@ -29,7 +29,7 @@ const JobSchema = new mongoose.Schema(
     },
     jobDescription: {
       type: String,
-      required: true,
+      required: [true, "Please provide description"],
     },
     createdBy: {
       type: mongoose.Types.ObjectId,
