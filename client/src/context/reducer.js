@@ -9,10 +9,17 @@ import {
   UPDATE_USER_BEGIN,
   UPDATE_USER_ERROR,
   UPDATE_USER_SUCCESS,
+  HANDLE_CHANGE,
 } from "./actions";
 import { initialState } from "./appContext";
 
 const reducer = (state, action) => {
+  if (action.type === HANDLE_CHANGE) {
+    return {
+      ...state,
+      [action.payload.name]: action.payload.value,
+    };
+  }
   if (action.type === DISPLAY_ALERT) {
     return {
       ...state,

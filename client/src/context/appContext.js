@@ -13,6 +13,7 @@ import {
   UPDATE_USER_BEGIN,
   UPDATE_USER_ERROR,
   UPDATE_USER_SUCCESS,
+  HANDLE_CHANGE,
 } from "./actions";
 
 // get user data from local storage
@@ -36,8 +37,8 @@ const initialState = {
   jobLocation: userLocation || "",
   jobTypeOptions: ["full-time", "part-time", "remote", "internship"],
   jobType: "full-time",
-  statusOptions: ["interview", "declined", "pending"],
-  status: "pending",
+  // statusOptions: ["interview", "declined", "pending"],
+  // status: "pending",
 };
 
 const AppContext = React.createContext();
@@ -163,6 +164,33 @@ const AppProvider = ({ children }) => {
     clearAlert();
   };
 
+  const handleChange = ({ name, value }) => {
+    dispatch({ type: HANDLE_CHANGE, payload: { name, value } });
+  };
+
+  // user register and login
+  const createJob = async ({
+    position,
+    company,
+    jobLocation,
+    jobDescription,
+    jobType,
+  }) => {
+    try {
+      // const { position, company, jobLocation, jobType, status } = state
+      const { data } = await authFetch.post("/jobs", {
+        position,
+        company,
+        jobLocation,
+        jobDescription,
+        jobType,
+      });
+      console.log(data);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
   return (
     <AppContext.Provider
       value={{
@@ -172,6 +200,8 @@ const AppProvider = ({ children }) => {
         toggleSidebar,
         logoutUser,
         updateUser,
+        createJob,
+        handleChange,
       }}
     >
       {/* hear children means app */}

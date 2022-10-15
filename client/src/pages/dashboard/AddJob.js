@@ -20,6 +20,8 @@ const AddJob = () => {
     jobDescription,
     jobType,
     jobTypeOptions,
+    handleChange,
+    createJob,
   } = useAppContext();
 
   const handleSubmit = (e) => {
@@ -28,13 +30,13 @@ const AddJob = () => {
       displayAlert();
       return;
     }
+    createJob({ position, company, jobLocation, jobDescription, jobType });
   };
 
   const handleJobInput = (e) => {
     const name = e.target.name;
     const value = e.target.value;
-    console.log(name);
-    console.log(value);
+    handleChange({ name, value });
   };
   return (
     <Wrapper>
