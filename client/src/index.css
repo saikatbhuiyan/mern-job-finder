@@ -49,7 +49,7 @@ html {
   --small-text: 0.875rem;
   --extra-small-text: 0.7em;
   /* rest of the vars */
-  --backgroundColor: var(--grey-50);
+  --backgroundColor: #02203c;
   --textColor: var(--grey-900);
   --borderRadius: 0.25rem;
   --letterSpacing: 1px;
@@ -148,7 +148,7 @@ ul {
 .btn {
   cursor: pointer;
   color: var(--white);
-  background: var(--primary-500);
+  background: #626ee3;
   border: transparent;
   border-radius: var(--borderRadius);
   letter-spacing: var(--letterSpacing);
@@ -159,7 +159,7 @@ ul {
   display: inline-block;
 }
 .btn:hover {
-  background: var(--primary-700);
+  background: var(--primary-900);
   box-shadow: var(--shadow-3);
 }
 .btn-hipster {
@@ -208,12 +208,13 @@ ul {
 .form {
   width: 90vw;
   max-width: var(--fixed-width);
-  background: var(--white);
+  background: var(--backgroundColor);
   border-radius: var(--borderRadius);
   box-shadow: var(--shadow-2);
   padding: 2rem 2.5rem;
   margin: 3rem auto;
   transition: var(--transition);
+  color: var(--white);
 }
 .form:hover {
   box-shadow: var(--shadow-4);
@@ -231,7 +232,7 @@ ul {
   width: 100%;
   padding: 0.375rem 0.75rem;
   border-radius: var(--borderRadius);
-  background: var(--backgroundColor);
+  background: var(--white);
   border: 1px solid var(--grey-200);
 }
 .form-input,

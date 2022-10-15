@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const Wrapper = styled.main`
   nav {
@@ -16,6 +16,7 @@ const Wrapper = styled.main`
     margin-top: -3rem;
   }
   h1 {
+    color: var(--grey-50);
     font-weight: 700;
     span {
       color: var(--primary-500);
@@ -36,5 +37,5 @@ const Wrapper = styled.main`
       display: block;
     }
   }
-`
-export default Wrapper
+`;
+export default Wrapper;

@@ -1,9 +1,9 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const Wrapper = styled.section`
   border-radius: var(--borderRadius);
   width: 100%;
-  background: var(--white);
+  background: var(--backgroundColor);
   padding: 3rem 2rem 4rem;
   box-shadow: var(--shadow-2);
   h3 {
@@ -63,6 +63,6 @@ const Wrapper = styled.section`
       margin-top: 0;
     }
   }
-`
+`;
 
-export default Wrapper
+export default Wrapper;

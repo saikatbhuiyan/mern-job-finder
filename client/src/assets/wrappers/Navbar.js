@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const Wrapper = styled.nav`
   height: var(--nav-height);
@@ -26,7 +26,7 @@ const Wrapper = styled.nav`
     display: flex;
     align-items: center;
   }
-  background: var(--white);
+  background: var(--backgroundColor);
   .btn-container {
     position: relative;
   }
@@ -44,7 +44,7 @@ const Wrapper = styled.nav`
     top: 40px;
     left: 0;
     width: 100%;
-    background: var(--primary-100);
+    background: var(--backgroundColor);
     box-shadow: var(--shadow-2);
     padding: 0.5rem;
     text-align: center;
@@ -80,5 +80,5 @@ const Wrapper = styled.nav`
       display: block;
     }
   }
-`
-export default Wrapper
+`;
+export default Wrapper;
