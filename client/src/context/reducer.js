@@ -10,6 +10,10 @@ import {
   UPDATE_USER_ERROR,
   UPDATE_USER_SUCCESS,
   HANDLE_CHANGE,
+  CLEAR_VALUES,
+  CREATE_JOB_BEGIN,
+  CREATE_JOB_ERROR,
+  CREATE_JOB_SUCCESS,
 } from "./actions";
 import { initialState } from "./appContext";
 
@@ -101,6 +105,46 @@ const reducer = (state, action) => {
   }
 
   if (action.type === UPDATE_USER_ERROR) {
+    return {
+      ...state,
+      isLoading: false,
+      showAlert: true,
+      alertType: "danger",
+      alertText: action.payload.msg,
+    };
+  }
+
+  if (action.type === CLEAR_VALUES) {
+    const initialState = {
+      isEditing: false,
+      editJobId: "",
+      position: "",
+      company: "",
+      jobLocation: state.userLocation,
+      jobType: "full-time",
+      jobDescription: "",
+      // status: "pending",
+    };
+
+    return {
+      ...state,
+      ...initialState,
+    };
+  }
+  if (action.type === CREATE_JOB_BEGIN) {
+    return { ...state, isLoading: true };
+  }
+
+  if (action.type === CREATE_JOB_SUCCESS) {
+    return {
+      ...state,
+      isLoading: false,
+      showAlert: true,
+      alertType: "success",
+      alertText: "New Job Created!",
+    };
+  }
+  if (action.type === CREATE_JOB_ERROR) {
     return {
       ...state,
       isLoading: false,

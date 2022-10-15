@@ -30,7 +30,7 @@ const AddJob = () => {
       displayAlert();
       return;
     }
-    createJob({ position, company, jobLocation, jobDescription, jobType });
+    createJob()
   };
 
   const handleJobInput = (e) => {

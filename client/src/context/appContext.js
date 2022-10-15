@@ -14,6 +14,10 @@ import {
   UPDATE_USER_ERROR,
   UPDATE_USER_SUCCESS,
   HANDLE_CHANGE,
+  CLEAR_VALUES,
+  CREATE_JOB_BEGIN,
+  CREATE_JOB_ERROR,
+  CREATE_JOB_SUCCESS,
 } from "./actions";
 
 // get user data from local storage
@@ -168,29 +172,28 @@ const AppProvider = ({ children }) => {
     dispatch({ type: HANDLE_CHANGE, payload: { name, value } });
   };
 
-  // user register and login
-  const createJob = async ({
-    position,
-    company,
-    jobLocation,
-    jobDescription,
-    jobType,
-  }) => {
+  const createJob = async () => {
+    dispatch({ type: CREATE_JOB_BEGIN });
     try {
-      // const { position, company, jobLocation, jobType, status } = state
-      const { data } = await authFetch.post("/jobs", {
+      const { position, company, jobLocation, jobType, jobDescription } = state;
+      await authFetch.post("/jobs", {
         position,
         company,
         jobLocation,
-        jobDescription,
         jobType,
+        jobDescription,
       });
-      console.log(data);
+      dispatch({ type: CREATE_JOB_SUCCESS });
+      dispatch({ type: CLEAR_VALUES });
     } catch (error) {
-      console.log(error);
+      if (error.response.status === 401) return;
+      dispatch({
+        type: CREATE_JOB_ERROR,
+        payload: { msg: error.response.data.msg },
+      });
     }
+    clearAlert();
   };
-
   return (
     <AppContext.Provider
       value={{
