@@ -15,7 +15,7 @@ const FormRowTextArea = ({
         value={value}
         name={name}
         onChange={handleChange}
-        className="form-input"
+        className="form-textarea"
         rows={rows || 8}
         cols={cols || 80}
       />

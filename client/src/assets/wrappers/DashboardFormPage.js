@@ -4,16 +4,18 @@ const Wrapper = styled.section`
   border-radius: var(--borderRadius);
   width: 100%;
   background: var(--backgroundColor);
-  padding: 3rem 2rem 4rem;
+  /* padding: 3rem 2rem 4rem; */
+  align-items: center;
   /* box-shadow: var(--shadow-2); */
   h3 {
     margin-top: 0;
+    text-align: center;
   }
   .form {
     margin: 0;
-    border-radius: 0;
-    box-shadow: none;
-    padding: 0;
+    /* border-radius: 0; */
+    /* box-shadow: none; */
+    /* padding: 0; */
     max-width: 100%;
     width: 100%;
   }
@@ -44,6 +46,11 @@ const Wrapper = styled.section`
   }
   .clear-btn:hover {
     background: var(--black);
+  }
+  @media (max-width: 600px) {
+    .form {
+      padding: 10px;
+    }
   }
   @media (min-width: 992px) {
     .form-center {

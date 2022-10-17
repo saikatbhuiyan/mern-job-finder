@@ -9,6 +9,10 @@ const Wrapper = styled.main`
     display: flex;
     align-items: center;
   }
+  .logo {
+    display: flex;
+    width: 100px;
+  }
   .page {
     min-height: calc(100vh - var(--nav-height));
     display: grid;

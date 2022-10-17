@@ -13,7 +13,9 @@ const SharedLayout = () => {
           <SmallSidebar />
           <BigSidebar />
           <div>
-            <Navbar />
+            <div className="top-nav">
+              <Navbar />
+            </div>
             <div className="dashboard-page">
               <Outlet />
             </div>

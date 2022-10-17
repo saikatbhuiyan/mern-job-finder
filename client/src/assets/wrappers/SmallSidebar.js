@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const Wrapper = styled.aside`
   @media (min-width: 992px) {
@@ -20,7 +20,7 @@ const Wrapper = styled.aside`
     opacity: 1;
   }
   .content {
-    background: var(--white);
+    background: var(--grey-900);
     width: var(--fluid-width);
     height: 95vh;
     border-radius: var(--borderRadius);
@@ -29,6 +29,7 @@ const Wrapper = styled.aside`
     display: flex;
     align-items: center;
     flex-direction: column;
+    background: var(--grey-900);
   }
   .close-btn {
     position: absolute;
@@ -54,7 +55,7 @@ const Wrapper = styled.aside`
     transition: var(--transition);
   }
   .nav-link:hover {
-    color: var(--grey-900);
+    color: var(--white);
   }
   .nav-link:hover .icon {
     color: var(--primary-500);
@@ -67,10 +68,10 @@ const Wrapper = styled.aside`
     transition: var(--transition);
   }
   .active {
-    color: var(--grey-900);
+    color: var(--white);
   }
   .active .icon {
     color: var(--primary-500);
   }
-`
-export default Wrapper
+`;
+export default Wrapper;

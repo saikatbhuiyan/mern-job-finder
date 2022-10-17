@@ -30,7 +30,7 @@ const AddJob = () => {
       displayAlert();
       return;
     }
-    createJob()
+    createJob();
   };
 
   const handleJobInput = (e) => {
@@ -39,56 +39,56 @@ const AddJob = () => {
     handleChange({ name, value });
   };
   return (
-    <Wrapper>
+    <Wrapper className="full-page">
       <form className="form">
         <h3>{isEditing ? "edit job" : "add job"}</h3>
         {showAlert && <Alert />}
-        <div className="form-center">
-          {/* position */}
-          <FormRow
-            type="text"
-            name="position"
-            value={position}
-            handleChange={handleJobInput}
-          />
-          {/* jobLocation */}
-          <FormRow
-            type="text"
-            name="jobLocation"
-            value={jobLocation}
-            handleChange={handleJobInput}
-          />
-          {/* company */}
-          <FormRow
-            type="text"
-            name="company"
-            value={company}
-            handleChange={handleJobInput}
-          />
-          {/* job type */}
-          <FormRowSelect
-            name="jobType"
-            labelText="job type"
-            value={jobType}
-            handleChange={handleJobInput}
-            list={jobTypeOptions}
-          />
-          {/* jobDescription */}
-          <FormRowTextArea
-            labelText="Description"
-            name="jobDescription"
-            value={jobDescription}
-            handleChange={handleJobInput}
-          />
-          <button
-            type="submit"
-            className="btn btn-block submit-btn"
-            onClick={handleSubmit}
-            disabled={isLoading}
-          >
-            submit
-          </button>
-        </div>
+        {/* <div className="form-center"> */}
+        {/* position */}
+        <FormRow
+          type="text"
+          name="position"
+          value={position}
+          handleChange={handleJobInput}
+        />
+        {/* jobLocation */}
+        <FormRow
+          type="text"
+          name="jobLocation"
+          value={jobLocation}
+          handleChange={handleJobInput}
+        />
+        {/* company */}
+        <FormRow
+          type="text"
+          name="company"
+          value={company}
+          handleChange={handleJobInput}
+        />
+        {/* job type */}
+        <FormRowSelect
+          name="jobType"
+          labelText="job type"
+          value={jobType}
+          handleChange={handleJobInput}
+          list={jobTypeOptions}
+        />
+        {/* jobDescription */}
+        <FormRowTextArea
+          labelText="Description"
+          name="jobDescription"
+          value={jobDescription}
+          handleChange={handleJobInput}
+        />
+        <button
+          type="submit"
+          className="btn btn-block submit-btn"
+          onClick={handleSubmit}
+          disabled={isLoading}
+        >
+          submit
+        </button>
+        {/* </div> */}
       </form>
     </Wrapper>
   );

@@ -9,7 +9,7 @@ const Navbar = () => {
   const { user, logoutUser, toggleSidebar } = useAppContext();
 
   return (
-    <Wrapper>
+    <Wrapper className="top-nav">
       <div className="nav-center">
         <button className="toggle-btn" onClick={toggleSidebar}>
           <FaAlignLeft />
