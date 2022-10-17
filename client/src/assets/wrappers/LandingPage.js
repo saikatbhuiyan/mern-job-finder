@@ -11,7 +11,7 @@ const Wrapper = styled.main`
   }
   .logo {
     display: flex;
-    width: 100px;
+    width: 150px;
   }
   .page {
     min-height: calc(100vh - var(--nav-height));

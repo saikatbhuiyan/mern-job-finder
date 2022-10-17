@@ -6,9 +6,6 @@ const Wrapper = styled.nav`
   align-items: center;
   justify-content: center;
   box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.1);
-  .top-nav {
-    background: var(--grey-900);
-  }
   .logo {
     display: flex;
     align-items: center;
@@ -29,7 +26,6 @@ const Wrapper = styled.nav`
     display: flex;
     align-items: center;
   }
-  background: var(--backgroundColor);
   .btn-container {
     position: relative;
   }
