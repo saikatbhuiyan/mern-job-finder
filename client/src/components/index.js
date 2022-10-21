@@ -6,6 +6,8 @@ import BigSidebar from "./BigSidebar";
 import SmallSidebar from "./SmallSidebar";
 import FormRowTextArea from "./FormRowTextArea";
 import FormRowSelect from "./FormRowSelect";
+import JobsContainer from "./JobsContainer";
+import SearchContainer from "./SearchContainer";
 
 export {
   Logo,
@@ -16,4 +18,6 @@ export {
   SmallSidebar,
   FormRowSelect,
   FormRowTextArea,
+  SearchContainer,
+  JobsContainer,
 };

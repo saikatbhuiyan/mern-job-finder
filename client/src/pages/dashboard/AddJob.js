@@ -38,6 +38,7 @@ const AddJob = () => {
     const value = e.target.value;
     handleChange({ name, value });
   };
+
   return (
     <Wrapper className="full-page">
       <form className="form">

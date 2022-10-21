@@ -1,9 +1,10 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const Wrapper = styled.div`
   margin-top: 0.5rem;
   display: flex;
   align-items: center;
+  color: var(--grey-900);
 
   .icon {
     font-size: 1rem;
@@ -18,5 +19,5 @@ const Wrapper = styled.div`
     text-transform: capitalize;
     letter-spacing: var(--letterSpacing);
   }
-`
-export default Wrapper
+`;
+export default Wrapper;

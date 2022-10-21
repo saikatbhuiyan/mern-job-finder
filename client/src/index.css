@@ -50,7 +50,8 @@ html {
   --extra-small-text: 0.7em;
   /* rest of the vars */
   --backgroundColor: #02203c;
-  --textColor: var(--grey-900);
+  /* --textColor: var(--grey-900); */
+  --textColor: var(--grey-50);
   --borderRadius: 0.25rem;
   --letterSpacing: 1px;
   --transition: 0.3s ease-in-out all;
