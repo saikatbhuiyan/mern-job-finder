@@ -7,11 +7,12 @@ import {
   showStats,
   updateJob,
   deleteJob,
+  getDetailJob,
 } from "../controllers/jobsController.js";
 
 router.route("/").post(createJob).get(getAllJobs);
 // place before :id
 router.route("/stats").get(showStats);
-router.route("/:id").delete(deleteJob).patch(updateJob);
+router.route("/:id").delete(deleteJob).patch(updateJob).get(getDetailJob);
 
 export default router;
