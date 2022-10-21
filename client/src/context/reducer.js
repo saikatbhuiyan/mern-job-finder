@@ -16,6 +16,7 @@ import {
   CREATE_JOB_SUCCESS,
   GET_JOBS_BEGIN,
   GET_JOBS_SUCCESS,
+  SET_EDIT_JOB,
 } from "./actions";
 import { initialState } from "./appContext";
 
@@ -26,6 +27,7 @@ const reducer = (state, action) => {
       [action.payload.name]: action.payload.value,
     };
   }
+
   if (action.type === DISPLAY_ALERT) {
     return {
       ...state,
@@ -43,6 +45,7 @@ const reducer = (state, action) => {
       alertText: "",
     };
   }
+
   if (action.type === SETUP_USER_BEGIN) {
     return { ...state, isLoading: true };
   }
@@ -133,6 +136,7 @@ const reducer = (state, action) => {
       ...initialState,
     };
   }
+
   if (action.type === CREATE_JOB_BEGIN) {
     return { ...state, isLoading: true };
   }
@@ -146,6 +150,7 @@ const reducer = (state, action) => {
       alertText: "New Job Created!",
     };
   }
+
   if (action.type === CREATE_JOB_ERROR) {
     return {
       ...state,
@@ -178,6 +183,20 @@ const reducer = (state, action) => {
       jobs: action.payload.jobs,
       totalJobs: action.payload.totalJobs,
       numOfPages: action.payload.numOfPages,
+    };
+  }
+
+  if (action.type === SET_EDIT_JOB) {
+    const job = state.jobs.find((job) => job._id === action.payload.id);
+    const { _id, position, company, jobLocation, jobType } = job;
+    return {
+      ...state,
+      isEditing: true,
+      editJobId: _id,
+      position,
+      company,
+      jobLocation,
+      jobType,
     };
   }
 

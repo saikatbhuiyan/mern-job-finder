@@ -22,6 +22,7 @@ const AddJob = () => {
     jobTypeOptions,
     handleChange,
     createJob,
+    editJob,
   } = useAppContext();
 
   const handleSubmit = (e) => {
@@ -29,6 +30,9 @@ const AddJob = () => {
     if (!position || !company || !jobLocation || !jobDescription) {
       displayAlert();
       return;
+    }
+    if (isEditing) {
+      editJob();
     }
     createJob();
   };

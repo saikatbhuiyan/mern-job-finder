@@ -20,6 +20,7 @@ import {
   CREATE_JOB_SUCCESS,
   GET_JOBS_BEGIN,
   GET_JOBS_SUCCESS,
+  SET_EDIT_JOB,
 } from "./actions";
 
 // get user data from local storage
@@ -223,11 +224,15 @@ const AppProvider = ({ children }) => {
     clearAlert();
   };
 
-  const setEditJob = async (id) => {
-    console.log(`Job to edit: ${id}`);
+  const setEditJob = (id) => {
+    dispatch({ type: SET_EDIT_JOB, payload: { id } });
   };
 
-  const deleteJob = async (id) => {
+  const editJob = () => {
+    console.log("Edit Job");
+  };
+
+  const deleteJob = (id) => {
     console.log(`Job to delete: ${id}`);
   };
 
@@ -245,6 +250,7 @@ const AppProvider = ({ children }) => {
         getJobs,
         deleteJob,
         setEditJob,
+        editJob,
       }}
     >
       {/* hear children means app */}
