@@ -45,7 +45,7 @@ const updateJob = async (req, res) => {
     throw new BadRequestError("Please provide all values");
   }
 
-  const job = Job.findOne({ _id: jobId });
+  const job = await Job.findOne({ _id: jobId });
 
   if (!job) {
     throw new NotFoundError(`No job with id :${jobId}`);
