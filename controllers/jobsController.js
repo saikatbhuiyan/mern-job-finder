@@ -1,3 +1,4 @@
+import mongoose from "mongoose";
 import Job from "../models/Job.js";
 import { StatusCodes } from "http-status-codes";
 import {
@@ -63,7 +64,23 @@ const updateJob = async (req, res) => {
 };
 
 const showStats = async (req, res) => {
-  res.send("showStats");
+  let stats = await Job.aggregate([
+    { $match: { createdBy: mongoose.Types.ObjectId(req.user.userId) } },
+    { $group: { _id: "$jobType", count: { $sum: 1 } } },
+  ]);
+  stats = stats.reduce((acc, current) => {
+    const { _id: title, count } = current;
+    acc[title] = count;
+    return acc;
+  }, {});
+  const defaultStats = {
+    internship: stats.internship || 0,
+    remote: stats.remote || 0,
+    "part-time": stats["part-time"] || 0,
+    "full-time": stats["full-time"] || 0,
+  };
+  let monthlyApplications = [];
+  res.status(StatusCodes.OK).json({ defaultStats, monthlyApplications });
 };
 
 const deleteJob = async (req, res) => {

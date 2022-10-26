@@ -21,6 +21,7 @@ const JobSchema = new mongoose.Schema(
       type: String,
       enum: ["full-time", "part-time", "remote", "internship"],
       default: "full-time",
+      required: true,
     },
     jobLocation: {
       type: String,
