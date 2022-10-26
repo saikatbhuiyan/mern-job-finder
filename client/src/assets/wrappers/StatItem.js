@@ -1,6 +1,8 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const Wrapper = styled.article`
+  width: 100%;
+  max-width: 80%;
   padding: 2rem;
   background: var(--white);
   border-radius: var(--borderRadius);
@@ -13,10 +15,11 @@ const Wrapper = styled.article`
   .count {
     display: block;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 40px;
     color: ${(props) => props.color};
   }
   .title {
+    color: var(--black);
     margin: 0;
     text-transform: capitalize;
     letter-spacing: var(--letterSpacing);
@@ -24,8 +27,8 @@ const Wrapper = styled.article`
     margin-top: 0.5rem;
   }
   .icon {
-    width: 70px;
-    height: 60px;
+    width: 50px;
+    height: 40px;
     background: ${(props) => props.bcg};
     border-radius: var(--borderRadius);
     display: flex;
@@ -36,6 +39,6 @@ const Wrapper = styled.article`
       color: ${(props) => props.color};
     }
   }
-`
+`;
 
-export default Wrapper
+export default Wrapper;

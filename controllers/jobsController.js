@@ -76,8 +76,8 @@ const showStats = async (req, res) => {
   const defaultStats = {
     internship: stats.internship || 0,
     remote: stats.remote || 0,
-    "part-time": stats["part-time"] || 0,
-    "full-time": stats["full-time"] || 0,
+    part_time: stats["part-time"] || 0,
+    full_time: stats["full-time"] || 0,
   };
   let monthlyApplications = [];
   res.status(StatusCodes.OK).json({ defaultStats, monthlyApplications });
