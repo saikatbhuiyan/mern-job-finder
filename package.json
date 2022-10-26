@@ -32,6 +32,7 @@
     "express-async-errors": "^3.1.1",
     "http-status-codes": "^2.2.0",
     "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
     "mongoose": "^6.5.1",
     "morgan": "^1.10.0",
     "react-icons": "^4.4.0",
