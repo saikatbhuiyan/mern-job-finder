@@ -1,0 +1,632 @@
+[
+  {
+    "company": "Kuphal Inc",
+    "position": "Statistician IV",
+    "jobLocation": "Enzan",
+    "jobType": "full-time",
+    "jobDescription": "Nondisplaced pilon fracture of unspecified tibia, initial encounter for open fracture type I or II",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-01-13T13:21:12Z"
+  },
+  {
+    "company": "Goldner, Hand and Hammes",
+    "position": "Help Desk Technician",
+    "jobLocation": "Krasnokholm",
+    "jobType": "internship",
+    "jobDescription": "Acute miliary tuberculosis of multiple sites",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2021-12-22T11:43:18Z"
+  },
+  {
+    "company": "Hayes-Grimes",
+    "position": "Account Executive",
+    "jobLocation": "Liangnong",
+    "jobType": "full-time",
+    "jobDescription": "Poisoning by antidotes and chelating agents, undetermined, initial encounter",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-01-05T22:59:38Z"
+  },
+  {
+    "company": "Erdman Inc",
+    "position": "Nuclear Power Engineer",
+    "jobLocation": "Hendījān",
+    "jobType": "internship",
+    "jobDescription": "Atherosclerosis of bypass graft of coronary artery of transplanted heart without angina pectoris",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-06-27T20:04:54Z"
+  },
+  {
+    "company": "Bins, Wyman and Deckow",
+    "position": "Civil Engineer",
+    "jobLocation": "Antang",
+    "jobType": "remote",
+    "jobDescription": "Poisoning by saline and osmotic laxatives, accidental (unintentional)",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-01-18T04:43:21Z"
+  },
+  {
+    "company": "Veum Inc",
+    "position": "Administrative Officer",
+    "jobLocation": "Hōfu",
+    "jobType": "part-time",
+    "jobDescription": "Corrosion of unspecified degree of unspecified site of left lower limb, except ankle and foot",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-01-09T08:38:22Z"
+  },
+  {
+    "company": "Volkman, Schuppe and Turcotte",
+    "position": "Analyst Programmer",
+    "jobLocation": "Xingong",
+    "jobType": "internship",
+    "jobDescription": "Unspecified fracture of unspecified femur, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with malunion",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-08-20T03:57:39Z"
+  },
+  {
+    "company": "Von, Gerlach and Jast",
+    "position": "VP Product Management",
+    "jobLocation": "Jinji",
+    "jobType": "remote",
+    "jobDescription": "Military operations involving explosion of guided missile",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-01-02T14:35:26Z"
+  },
+  {
+    "company": "Lang-Jones",
+    "position": "Computer Systems Analyst III",
+    "jobLocation": "Monte Carmelo",
+    "jobType": "internship",
+    "jobDescription": "Nondisplaced fracture of body of scapula, unspecified shoulder",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2021-12-26T04:13:08Z"
+  },
+  {
+    "company": "Daugherty Inc",
+    "position": "Analog Circuit Design manager",
+    "jobLocation": "Palma De Mallorca",
+    "jobType": "remote",
+    "jobDescription": "Solitary plasmacytoma in remission",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-09-15T06:36:27Z"
+  },
+  {
+    "company": "Doyle-Ortiz",
+    "position": "Internal Auditor",
+    "jobLocation": "Siaya",
+    "jobType": "full-time",
+    "jobDescription": "Oligohydramnios, third trimester",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-03-25T07:24:46Z"
+  },
+  {
+    "company": "Nader, Marvin and Rutherford",
+    "position": "General Manager",
+    "jobLocation": "Wuyun",
+    "jobType": "remote",
+    "jobDescription": "Unspecified open wound of left great toe with damage to nail, initial encounter",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2021-12-16T14:08:51Z"
+  },
+  {
+    "company": "Wilderman, Gleason and Kovacek",
+    "position": "Senior Sales Associate",
+    "jobLocation": "Panzhuang",
+    "jobType": "full-time",
+    "jobDescription": "Other fracture of fifth lumbar vertebra, subsequent encounter for fracture with routine healing",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-09-06T04:19:43Z"
+  },
+  {
+    "company": "Pagac-Mosciski",
+    "position": "Electrical Engineer",
+    "jobLocation": "Taquara",
+    "jobType": "internship",
+    "jobDescription": "Subluxation of unspecified interphalangeal joint of left ring finger",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-04-25T11:08:02Z"
+  },
+  {
+    "company": "Bartoletti Group",
+    "position": "Marketing Assistant",
+    "jobLocation": "Khotsimsk",
+    "jobType": "part-time",
+    "jobDescription": "Displaced fracture of neck of left radius, subsequent encounter for closed fracture with malunion",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-09-25T03:10:11Z"
+  },
+  {
+    "company": "Windler, Kris and Mann",
+    "position": "Compensation Analyst",
+    "jobLocation": "Kirovskiy",
+    "jobType": "full-time",
+    "jobDescription": "Hemorrhagic choroidal detachment, unspecified eye",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-06-21T06:45:38Z"
+  },
+  {
+    "company": "Hayes-Kohler",
+    "position": "Associate Professor",
+    "jobLocation": "Xinpu",
+    "jobType": "internship",
+    "jobDescription": "Insect bite (nonvenomous) of lower back and pelvis, initial encounter",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-01-15T04:08:17Z"
+  },
+  {
+    "company": "Braun Group",
+    "position": "Software Consultant",
+    "jobLocation": "Villaguay",
+    "jobType": "full-time",
+    "jobDescription": "Contusion of right thumb without damage to nail, sequela",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-02-26T13:57:27Z"
+  },
+  {
+    "company": "Wolff-Lehner",
+    "position": "Help Desk Operator",
+    "jobLocation": "Tamatam",
+    "jobType": "internship",
+    "jobDescription": "Poisoning by skeletal muscle relaxants [neuromuscular blocking agents], accidental (unintentional), subsequent encounter",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-06-03T03:57:28Z"
+  },
+  {
+    "company": "Nikolaus, Cole and Witting",
+    "position": "Senior Quality Engineer",
+    "jobLocation": "Jinji",
+    "jobType": "internship",
+    "jobDescription": "Other adrenocortical insufficiency",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-03-19T00:23:20Z"
+  },
+  {
+    "company": "Gaylord, Runolfsdottir and Gleichner",
+    "position": "Sales Associate",
+    "jobLocation": "Město Libavá",
+    "jobType": "full-time",
+    "jobDescription": "Laceration of other muscle(s) and tendon(s) of posterior muscle group at lower leg level",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-06-10T00:41:16Z"
+  },
+  {
+    "company": "Pagac, Kulas and Greenholt",
+    "position": "Project Manager",
+    "jobLocation": "Mikulčice",
+    "jobType": "remote",
+    "jobDescription": "Puncture wound without foreign body of right back wall of thorax with penetration into thoracic cavity, subsequent encounter",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-01-04T06:33:19Z"
+  },
+  {
+    "company": "Padberg-Predovic",
+    "position": "Clinical Specialist",
+    "jobLocation": "Golug",
+    "jobType": "part-time",
+    "jobDescription": "Child neglect or abandonment, confirmed, initial encounter",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-07-30T09:08:08Z"
+  },
+  {
+    "company": "Heidenreich, DuBuque and Kertzmann",
+    "position": "Help Desk Operator",
+    "jobLocation": "Hongyang",
+    "jobType": "remote",
+    "jobDescription": "Fracture of corpus cavernosum penis, subsequent encounter",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-08-06T18:29:11Z"
+  },
+  {
+    "company": "Fay-Parisian",
+    "position": "Developer IV",
+    "jobLocation": "Yigo Village",
+    "jobType": "full-time",
+    "jobDescription": "Laceration of unspecified muscle, fascia and tendon at shoulder and upper arm level, unspecified arm, subsequent encounter",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-05-05T13:55:06Z"
+  },
+  {
+    "company": "Brekke, Barrows and Dare",
+    "position": "Programmer Analyst II",
+    "jobLocation": "Jaen",
+    "jobType": "remote",
+    "jobDescription": "Pedal cycle driver injured in collision with two- or three-wheeled motor vehicle in nontraffic accident, sequela",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-04-15T15:23:14Z"
+  },
+  {
+    "company": "Greenfelder-Brekke",
+    "position": "Administrative Officer",
+    "jobLocation": "Bindura",
+    "jobType": "internship",
+    "jobDescription": "Adhesions due to foreign body accidentally left in body following injection or immunization, sequela",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-05-06T14:19:06Z"
+  },
+  {
+    "company": "Pouros LLC",
+    "position": "Electrical Engineer",
+    "jobLocation": "Montemor-o-Velho",
+    "jobType": "part-time",
+    "jobDescription": "Other specified diabetes mellitus with hypoglycemia without coma",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-02-02T02:22:51Z"
+  },
+  {
+    "company": "Gorczany, Graham and Rowe",
+    "position": "Technical Writer",
+    "jobLocation": "Matou",
+    "jobType": "internship",
+    "jobDescription": "Malignant neoplasm of overlapping sites of vulva",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-09-27T23:40:52Z"
+  },
+  {
+    "company": "Sawayn and Sons",
+    "position": "Senior Editor",
+    "jobLocation": "Nevers",
+    "jobType": "part-time",
+    "jobDescription": "Other specified injury of plantar artery of unspecified foot, sequela",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-08-13T19:05:37Z"
+  },
+  {
+    "company": "Nader and Sons",
+    "position": "Accountant I",
+    "jobLocation": "Ush-Tyube",
+    "jobType": "remote",
+    "jobDescription": "Puncture wound without foreign body of left shoulder",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2021-11-02T04:34:57Z"
+  },
+  {
+    "company": "Hoppe-Volkman",
+    "position": "Project Manager",
+    "jobLocation": "Chikola",
+    "jobType": "part-time",
+    "jobDescription": "Breakdown (mechanical) of internal fixation device of other bones, subsequent encounter",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2021-12-20T04:40:41Z"
+  },
+  {
+    "company": "Paucek-O'Keefe",
+    "position": "Operator",
+    "jobLocation": "Nong Yai",
+    "jobType": "part-time",
+    "jobDescription": "Lead-induced chronic gout, right shoulder",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-09-27T05:19:03Z"
+  },
+  {
+    "company": "Conroy-Lebsack",
+    "position": "Information Systems Manager",
+    "jobLocation": "Taiping",
+    "jobType": "internship",
+    "jobDescription": "Villonodular synovitis (pigmented), unspecified ankle and foot",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-07-22T14:30:41Z"
+  },
+  {
+    "company": "Pagac, Medhurst and Fahey",
+    "position": "Research Assistant II",
+    "jobLocation": "Cereté",
+    "jobType": "full-time",
+    "jobDescription": "Malignant neoplasm of bladder, unspecified",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2021-11-12T18:41:04Z"
+  },
+  {
+    "company": "Gulgowski, Nolan and Greenholt",
+    "position": "Quality Control Specialist",
+    "jobLocation": "Ростуша",
+    "jobType": "remote",
+    "jobDescription": "Displaced fracture of coronoid process of right ulna, subsequent encounter for open fracture type I or II with nonunion",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-05-11T17:39:34Z"
+  },
+  {
+    "company": "Fadel, Rosenbaum and Schoen",
+    "position": "Programmer IV",
+    "jobLocation": "Kolor",
+    "jobType": "internship",
+    "jobDescription": "Conjunctival xerosis, unspecified",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-09-05T00:47:06Z"
+  },
+  {
+    "company": "Kertzmann-Sanford",
+    "position": "Social Worker",
+    "jobLocation": "Neftçala",
+    "jobType": "remote",
+    "jobDescription": "Foreign body in nostril, subsequent encounter",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-03-10T04:29:51Z"
+  },
+  {
+    "company": "Ratke LLC",
+    "position": "Chemical Engineer",
+    "jobLocation": "Kebonkaret",
+    "jobType": "full-time",
+    "jobDescription": "Poisoning by predominantly beta-adrenoreceptor agonists, accidental (unintentional)",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-04-23T15:16:31Z"
+  },
+  {
+    "company": "Kessler-Littel",
+    "position": "Environmental Tech",
+    "jobLocation": "Hod HaSharon",
+    "jobType": "full-time",
+    "jobDescription": "Other rheumatic aortic valve diseases",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-08-10T18:30:03Z"
+  },
+  {
+    "company": "McCullough, Dietrich and Brown",
+    "position": "Accountant III",
+    "jobLocation": "Jimsar",
+    "jobType": "full-time",
+    "jobDescription": "Acquired absence of both cervix and uterus",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-02-02T18:41:03Z"
+  },
+  {
+    "company": "Osinski and Sons",
+    "position": "Account Representative III",
+    "jobLocation": "Jiangtun",
+    "jobType": "part-time",
+    "jobDescription": "Other specified injuries of unspecified elbow, initial encounter",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-03-15T07:26:47Z"
+  },
+  {
+    "company": "O'Keefe, Gusikowski and Schaefer",
+    "position": "Software Test Engineer II",
+    "jobLocation": "Kalajoki",
+    "jobType": "internship",
+    "jobDescription": "Loose body in ankle and toe joints",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-10-18T19:42:15Z"
+  },
+  {
+    "company": "Ebert-Simonis",
+    "position": "Legal Assistant",
+    "jobLocation": "Salvaleón de Higüey",
+    "jobType": "remote",
+    "jobDescription": "Toxic effect of homologues of benzene, intentional self-harm, sequela",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2021-11-11T12:31:24Z"
+  },
+  {
+    "company": "Kihn, Marquardt and Braun",
+    "position": "Editor",
+    "jobLocation": "Hořice",
+    "jobType": "part-time",
+    "jobDescription": "Poisoning by pyrazolone derivatives, accidental (unintentional)",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-10-10T18:04:46Z"
+  },
+  {
+    "company": "Leannon, Hartmann and Jones",
+    "position": "Help Desk Operator",
+    "jobLocation": "Semamung",
+    "jobType": "full-time",
+    "jobDescription": "Severe hypoxic ischemic encephalopathy [HIE]",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-07-24T11:05:00Z"
+  },
+  {
+    "company": "Thompson, Von and Douglas",
+    "position": "Account Representative II",
+    "jobLocation": "Abashiri",
+    "jobType": "remote",
+    "jobDescription": "Other fracture of right foot, subsequent encounter for fracture with routine healing",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-01-15T14:33:03Z"
+  },
+  {
+    "company": "Klein, Ward and Schimmel",
+    "position": "VP Quality Control",
+    "jobLocation": "Socorro",
+    "jobType": "internship",
+    "jobDescription": "Squamous cell carcinoma of skin of right ear and external auricular canal",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-09-28T11:21:36Z"
+  },
+  {
+    "company": "Strosin, Kreiger and Weber",
+    "position": "Media Manager II",
+    "jobLocation": "Trenggulunan",
+    "jobType": "full-time",
+    "jobDescription": "Other nondisplaced fracture of seventh cervical vertebra, subsequent encounter for fracture with nonunion",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-09-20T17:43:27Z"
+  },
+  {
+    "company": "Hills, Jerde and O'Keefe",
+    "position": "Design Engineer",
+    "jobLocation": "New Cebu",
+    "jobType": "part-time",
+    "jobDescription": "Open bite of unspecified back wall of thorax with penetration into thoracic cavity, initial encounter",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-01-07T19:00:48Z"
+  },
+  {
+    "company": "Senger Group",
+    "position": "Senior Editor",
+    "jobLocation": "Gia Ray",
+    "jobType": "part-time",
+    "jobDescription": "Malignant neoplasm of lower-inner quadrant of right male breast",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-09-02T23:13:51Z"
+  },
+  {
+    "company": "Klocko Group",
+    "position": "Software Test Engineer II",
+    "jobLocation": "Al Maţarīyah",
+    "jobType": "remote",
+    "jobDescription": "Burn of first degree of right upper arm",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-04-19T09:09:16Z"
+  },
+  {
+    "company": "Treutel, Huel and Tremblay",
+    "position": "Technical Writer",
+    "jobLocation": "Donja Brela",
+    "jobType": "full-time",
+    "jobDescription": "Displaced fracture of neck of right radius, subsequent encounter for open fracture type I or II with malunion",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-03-12T03:32:26Z"
+  },
+  {
+    "company": "Friesen-Tromp",
+    "position": "Cost Accountant",
+    "jobLocation": "Pendolo",
+    "jobType": "full-time",
+    "jobDescription": "Retinal hemorrhage, unspecified eye",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-01-26T17:20:13Z"
+  },
+  {
+    "company": "Blick Inc",
+    "position": "Librarian",
+    "jobLocation": "Damaishan",
+    "jobType": "part-time",
+    "jobDescription": "Crushing injury of right great toe, subsequent encounter",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-01-10T05:46:39Z"
+  },
+  {
+    "company": "Bradtke, Harber and Price",
+    "position": "Geologist II",
+    "jobLocation": "Mērsrags",
+    "jobType": "full-time",
+    "jobDescription": "Unspecified acquired deformity of right forearm",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-04-15T10:05:51Z"
+  },
+  {
+    "company": "Kessler, Haley and Block",
+    "position": "Account Executive",
+    "jobLocation": "Belas",
+    "jobType": "internship",
+    "jobDescription": "Methicillin susceptible Staphylococcus aureus infection, unspecified site",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-05-25T09:41:52Z"
+  },
+  {
+    "company": "D'Amore Group",
+    "position": "Statistician I",
+    "jobLocation": "Concepción del Bermejo",
+    "jobType": "remote",
+    "jobDescription": "Displaced fracture (avulsion) of lateral epicondyle of right humerus, sequela",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-06-16T06:14:42Z"
+  },
+  {
+    "company": "Kautzer and Sons",
+    "position": "VP Product Management",
+    "jobLocation": "Manta",
+    "jobType": "part-time",
+    "jobDescription": "Nondisplaced fracture of coronoid process of unspecified ulna, initial encounter for closed fracture",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-02-16T19:46:03Z"
+  },
+  {
+    "company": "Emard, Larkin and Funk",
+    "position": "Compensation Analyst",
+    "jobLocation": "Pongkor",
+    "jobType": "internship",
+    "jobDescription": "Toxic effect of contact with unspecified venomous animal, assault, initial encounter",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-04-28T05:08:39Z"
+  },
+  {
+    "company": "Schneider-Wilkinson",
+    "position": "Accounting Assistant II",
+    "jobLocation": "Turośń Kościelna",
+    "jobType": "internship",
+    "jobDescription": "Open bite of toe with damage to nail",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-10-14T06:55:04Z"
+  },
+  {
+    "company": "Robel, Hessel and Jenkins",
+    "position": "Research Nurse",
+    "jobLocation": "Ketitang Wetan",
+    "jobType": "part-time",
+    "jobDescription": "Adverse effect of other parasympathomimetics [cholinergics]",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-10-16T07:22:58Z"
+  },
+  {
+    "company": "Klein, Cummerata and Pouros",
+    "position": "Safety Technician IV",
+    "jobLocation": "Skënderbegas",
+    "jobType": "remote",
+    "jobDescription": "Poisoning by, adverse effect of and underdosing of other general anesthetics",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-04-29T14:08:09Z"
+  },
+  {
+    "company": "Okuneva-Nicolas",
+    "position": "Statistician III",
+    "jobLocation": "Jirny",
+    "jobType": "remote",
+    "jobDescription": "Strain of extensor muscle, fascia and tendon of unspecified thumb at wrist and hand level, initial encounter",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2021-12-29T06:55:09Z"
+  },
+  {
+    "company": "Grimes LLC",
+    "position": "Senior Developer",
+    "jobLocation": "Posse",
+    "jobType": "remote",
+    "jobDescription": "Displaced trimalleolar fracture of unspecified lower leg, initial encounter for open fracture type IIIA, IIIB, or IIIC",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2021-11-04T20:58:31Z"
+  },
+  {
+    "company": "Friesen Inc",
+    "position": "Biostatistician III",
+    "jobLocation": "Saverne",
+    "jobType": "internship",
+    "jobDescription": "Acute infection following transfusion, infusion, or injection of blood and blood products, sequela",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-03-15T05:53:42Z"
+  },
+  {
+    "company": "Turner-Mayert",
+    "position": "Information Systems Manager",
+    "jobLocation": "Suwaduk",
+    "jobType": "part-time",
+    "jobDescription": "Displaced Rolando's fracture, left hand, initial encounter for open fracture",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-07-30T02:08:46Z"
+  },
+  {
+    "company": "Ritchie, Schaefer and Lueilwitz",
+    "position": "Executive Secretary",
+    "jobLocation": "Pangguang",
+    "jobType": "part-time",
+    "jobDescription": "Displaced intertrochanteric fracture of unspecified femur, subsequent encounter for open fracture type I or II with delayed healing",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-08-05T01:05:23Z"
+  },
+  {
+    "company": "Herzog Inc",
+    "position": "Marketing Assistant",
+    "jobLocation": "La Guacamaya",
+    "jobType": "part-time",
+    "jobDescription": "Intraoperative hemorrhage and hematoma of a nervous system organ or structure complicating other procedure",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2021-11-17T12:54:39Z"
+  },
+  {
+    "company": "Trantow LLC",
+    "position": "Developer II",
+    "jobLocation": "Gulou",
+    "jobType": "full-time",
+    "jobDescription": "Breakdown (mechanical) of implanted testicular prosthesis",
+    "createdBy": "62f446434a56aeebbd918cb5",
+    "createdAt": "2022-08-15T03:42:27Z"
+  }
+]
