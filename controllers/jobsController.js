@@ -22,7 +22,44 @@ const createJob = async (req, res) => {
 };
 
 const getAllJobs = async (req, res) => {
-  const jobs = await Job.find({ createdBy: req.user.userId });
+  const { jobType, sort, search } = req.query;
+
+  const queryObject = {
+    createdBy: req.user.userId,
+  };
+  // add stuff based on conditions
+  if (jobType && jobType !== "all") {
+    queryObject.jobType = jobType;
+  }
+
+  // $regex: search -> user don't have to type exact text
+  // $options: "i" -> is for case-insensitive
+  if (search) {
+    queryObject.position = { $regex: search, $options: "i" };
+    // queryObject.company = { $regex: search, $options: "i" };
+    // queryObject.jobLocation = { $regex: search, $options: "i" };
+    // queryObject.jobDescription = { $regex: search, $options: "i" };
+  }
+
+  // No Await
+  let results = Job.find(queryObject);
+
+  // Chain sort conditions
+  if (sort === "latest") {
+    result = result.sort("-createdAt");
+  }
+  if (sort === "oldest") {
+    result = result.sort("createdAt");
+  }
+  if (sort === "a-z") {
+    result = result.sort("position");
+  }
+  if (sort === "z-a") {
+    result = result.sort("-position");
+  }
+
+  const jobs = await results;
+
   res
     .status(StatusCodes.OK)
     .json({ jobs, totalJobs: jobs.length, numOfPages: 1 });
