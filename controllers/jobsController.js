@@ -125,6 +125,7 @@ const showStats = async (req, res) => {
     part_time: stats["part-time"] || 0,
     full_time: stats["full-time"] || 0,
   };
+
   let monthlyApplications = await Job.aggregate([
     { $match: { createdBy: mongoose.Types.ObjectId(req.user.userId) } },
     {
@@ -136,7 +137,6 @@ const showStats = async (req, res) => {
     { $sort: { "_id.year": -1, "_id.month": -1 } },
     { $limit: 6 },
   ]);
-
   monthlyApplications = monthlyApplications
     .map((item) => {
       const {
