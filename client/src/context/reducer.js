@@ -24,6 +24,7 @@ import {
   SHOW_STATS_BEGIN,
   SHOW_STATS_SUCCESS,
   CLEAR_FILTERS,
+  CHANGE_PAGE,
 } from "./actions";
 import { initialState } from "./appContext";
 
@@ -31,6 +32,7 @@ const reducer = (state, action) => {
   if (action.type === HANDLE_CHANGE) {
     return {
       ...state,
+      page: 1,
       [action.payload.name]: action.payload.value,
     };
   }
@@ -265,6 +267,10 @@ const reducer = (state, action) => {
       searchType: "all",
       sort: "latest",
     };
+  }
+
+  if (action.type === CHANGE_PAGE) {
+    return { ...state, page: action.payload.page };
   }
 
   throw new Error(`no such action :${action.type}`);
