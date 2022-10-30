@@ -54,14 +54,13 @@ app.use(mongoSanitize()); // Sanitizes user-supplied data to prevent MongoDB Ope
 app.get("/", (req, res) => {
   res.send("Welcome!");
 });
+app.use("/api/v1/auth", authRouter);
+app.use("/api/v1/jobs", authenticateUser, jobsRouter);
 
 // only when ready to deploy
 app.get("*", (req, res) => {
   res.sendFile(path.resolve(__dirname, "./client/build", "index.html"));
 });
-
-app.use("/api/v1/auth", authRouter);
-app.use("/api/v1/jobs", authenticateUser, jobsRouter);
 
 app.use(notFoundMiddleware);
 app.use(errorHandlerMiddleware);

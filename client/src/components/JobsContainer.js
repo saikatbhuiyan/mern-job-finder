@@ -28,7 +28,7 @@ const JobsContainer = () => {
     return <Loading center />;
   }
 
-  if (jobs.length === 0) {
+  if (!jobs || jobs.length === 0) {
     return (
       <Wrapper>
         <h2>No jobs to display...</h2>
