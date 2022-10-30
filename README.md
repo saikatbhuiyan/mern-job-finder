@@ -33,7 +33,7 @@
 
 ### Here is some images!
 
-![job-finder 1](https://user-images.githubusercontent.com/44515748/198888108-55301379-fab0-4907-92e1-350e4ce1f190.PNG)
+![job-finder](https://user-images.githubusercontent.com/44515748/198889189-1ccd2212-e21d-4de7-a455-910f981bd81e.PNG)
 
 ![job-finder 2](https://user-images.githubusercontent.com/44515748/198888110-0d3170de-c779-4ec6-9154-260ef15c0b98.PNG)
 
