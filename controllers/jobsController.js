@@ -36,13 +36,10 @@ const getAllJobs = async (req, res) => {
   // $options: "i" -> is for case-insensitive
   if (search) {
     queryObject.position = { $regex: search, $options: "i" };
-    // queryObject.company = { $regex: search, $options: "i" };
-    // queryObject.jobLocation = { $regex: search, $options: "i" };
-    // queryObject.jobDescription = { $regex: search, $options: "i" };
   }
 
   // No Await
-  let results = Job.find(queryObject);
+  let result = Job.find(queryObject);
 
   // Chain sort conditions
   if (sort === "latest") {
@@ -58,7 +55,7 @@ const getAllJobs = async (req, res) => {
     result = result.sort("-position");
   }
 
-  const jobs = await results;
+  const jobs = await result;
 
   res
     .status(StatusCodes.OK)
